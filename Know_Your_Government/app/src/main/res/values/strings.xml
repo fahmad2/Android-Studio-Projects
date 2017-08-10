@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Know Your Government</string>
+    <string name="about_app_name">Know Your Government</string>
+    <string name="about_me">\@ 2017, Faizan Ahmad</string>
+    <string name="about_version">Version 1.0</string>
+    <string name="defaultLocation">No Data For Location</string>
+    <string name="defaultPhone">xxx-xxx-xxxx</string>
+</resources>

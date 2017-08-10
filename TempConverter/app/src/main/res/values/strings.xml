@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TempConverter</string>
+    <string name="WelcomeText">Welcome to the Temperature Converter App</string>
+    <string name="celcBtnText">°C to °F</string>
+    <string name="fahBtnText">°F to °C</string>
+    <string name="equalsSign">=</string>
+    <string name="calcBtn">CALCULATE</string>
+    <string name="resultsText">No Results Yet</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">News Gateway</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="all_title">all</string>
+    <string name="san_title">science-and-nature</string>
+    <string name="game_title">gaming</string>
+    <string name="mus_title">music</string>
+    <string name="gen_title">general</string>
+    <string name="pol_title">politics</string>
+    <string name="tech_title">technology</string>
+    <string name="spo_title">sports</string>
+    <string name="ent_title">entertainment</string>
+    <string name="bus_title">business</string>
+</resources>
