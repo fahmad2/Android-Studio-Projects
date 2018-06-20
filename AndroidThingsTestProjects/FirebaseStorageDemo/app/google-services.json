@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "89595189765",
+    "firebase_url": "https://fir-storage-de.firebaseio.com",
+    "project_id": "fir-storage-de",
+    "storage_bucket": "fir-storage-de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89595189765:android:12aab1a0ee730503",
+        "android_client_info": {
+          "package_name": "com.faizan.firebasestoragedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89595189765-47h9vuuk4hc3sghk07cmd7m34ch94rf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKyTQyckNeidzNqkt5CDMZPXloZ52rZPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
