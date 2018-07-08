@@ -131,12 +131,12 @@ public class MainActivity extends Activity {
     public void addVideos(){
         Log.i(TAG, "addVideosButton clicked");
 
-        //Set<MediaSource> remainingMediaSources = new HashSet<>(Arrays.asList(mediaSourcesArray).subList(1, mediaSourcesArray.length));
-        Set<MediaSource> remainingMediaSources = new HashSet<>();
-
-        for(int i=1; i<mediaSourcesArray.length; i++){
-            MediaSource mediaSource = mediaSourcesArray[i];
-        }
+        Set<MediaSource> remainingMediaSources = new HashSet<>(Arrays.asList(mediaSourcesArray).subList(1, mediaSourcesArray.length));
+//        Set<MediaSource> remainingMediaSources = new HashSet<>();
+//
+//        for(int i=1; i<mediaSourcesArray.length; i++){
+//            MediaSource mediaSource = mediaSourcesArray[i];
+//        }
 
         concatenatingMediaSource.addMediaSources(remainingMediaSources);
     }
