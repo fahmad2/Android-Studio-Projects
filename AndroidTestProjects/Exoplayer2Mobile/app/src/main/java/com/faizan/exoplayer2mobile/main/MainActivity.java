@@ -35,6 +35,9 @@ import java.util.Set;
 public class MainActivity extends Activity {
 
     private static final String TAG = "ExoMob MainActivity";
+    private static final String muteString = "Mute";
+    private static final String unmuteString = "Unmute";
+
     private PlayerView playerView;
     private SimpleExoPlayer player;
     private ConcatenatingMediaSource concatenatingMediaSource;
@@ -52,7 +55,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         Button addVideosButton = findViewById(R.id.addVideosButton);
-        Button muteButton = findViewById(R.id.muteButton);
+        final Button muteButton = findViewById(R.id.muteButton);
         playerView = findViewById(R.id.exo_player_view);
 
         addVideosButton.setOnClickListener(new View.OnClickListener() {
@@ -70,11 +73,13 @@ public class MainActivity extends Activity {
                     Log.i(TAG, "Video is muted");
                     Log.i(TAG, "Amplifying video");
                     MediaPlayerUtils.setMute(false, player);
+                    muteButton.setText(muteString);
                 }
                 else{
                     Log.i(TAG, "Video is not muted");
                     Log.i(TAG, "Muting video");
                     MediaPlayerUtils.setMute(true, player);
+                    muteButton.setText(unmuteString);
                 }
             }
         });
@@ -131,12 +136,8 @@ public class MainActivity extends Activity {
     public void addVideos(){
         Log.i(TAG, "addVideosButton clicked");
 
-        Set<MediaSource> remainingMediaSources = new HashSet<>(Arrays.asList(mediaSourcesArray).subList(1, mediaSourcesArray.length));
-//        Set<MediaSource> remainingMediaSources = new HashSet<>();
-//
-//        for(int i=1; i<mediaSourcesArray.length; i++){
-//            MediaSource mediaSource = mediaSourcesArray[i];
-//        }
+        Set<MediaSource> remainingMediaSources = new HashSet<>(
+                Arrays.asList(mediaSourcesArray).subList(1, mediaSourcesArray.length));
 
         concatenatingMediaSource.addMediaSources(remainingMediaSources);
     }
