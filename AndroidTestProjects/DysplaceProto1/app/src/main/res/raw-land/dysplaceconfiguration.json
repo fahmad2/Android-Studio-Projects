@@ -1,0 +1,10 @@
+{
+  "DysplaceLocalLibraryStructure": {
+    "RootDirName": "DYSPLACE",
+    "RootDirSubDirNames": ["VIDEOS", "TEXT_FILES"]
+  },
+  "DysplaceS3FolderStructure": {
+    "CampaignFolderName": "campaigns",
+    "CampaignSubFolderNames": ["active-level", "archive-level", "staging-level"]
+  }
+}

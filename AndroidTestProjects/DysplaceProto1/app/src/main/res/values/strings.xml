@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dysplace Proto1</string>
+    <string name="activate_activity_text">Activate Dysplace Device</string>
+    <string name="newpass_activity_text">Set New Password</string>
+    <string name="dialog_title">App Error</string>
+</resources>

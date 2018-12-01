@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AWS CloudLogic</string>
+    <string name="company_name">Dysplace</string>
+    <string name="credential_json_name">dysplace_credentials</string>
+    <string name="user_id_json_key">UserID</string>
+    <string name="password_json_key">Password</string>
+</resources>

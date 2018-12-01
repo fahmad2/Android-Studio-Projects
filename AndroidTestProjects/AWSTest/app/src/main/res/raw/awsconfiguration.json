@@ -1,0 +1,46 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "ap-south-1:c8dc1574-bd6b-49b1-9a07-c82ce9f16cc0",
+        "Region": "ap-south-1"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CognitoUserPool": {
+    "Default": {
+      "PoolId": "ap-south-1_F1YLuL2lh",
+      "AppClientId": "1mvfckj1vghtkglds0069ipjtk",
+      "AppClientSecret": "367pv29vcuolvk8issm2sqnu8vce3hufl2q2maksolrn5padrlg",
+      "Region": "ap-south-1"
+    }
+  },
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "dysplacetest-userfiles-mobilehub-697837450",
+      "Region": "ap-south-1"
+    }
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "9b3922873a3e4a6cb71493923b42962f",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  },
+  "UserFileManager": {
+    "Default": {
+      "Bucket": "dysplacetest-userfiles-mobilehub-697837450",
+      "Region": "ap-south-1"
+    }
+  }
+}
